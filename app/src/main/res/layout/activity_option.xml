@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_color"
+    tools:context=".OptionActivity"
+    android:orientation="vertical"
+
+   >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TimePicker
+            android:id="@+id/time_picker"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:amPmBackgroundColor="@color/white"
+            android:amPmTextColor="@color/white"
+            android:background="@color/white"
+            android:numbersInnerTextColor="@color/white"
+            android:numbersSelectorColor="@color/white"
+            android:numbersTextColor="@color/base_color"
+            android:timePickerMode="clock">
+
+        </TimePicker>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:id="@+id/name_txt"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+
+
+            >
+
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:gravity="center|left"
+
+            android:background="@color/white"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Задать GPS параметры"
+                android:textSize="20dp"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black">
+            </TextView>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:id="@+id/options_btn"
+
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+
+            >
+
+        </ImageButton>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/option_activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </include>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

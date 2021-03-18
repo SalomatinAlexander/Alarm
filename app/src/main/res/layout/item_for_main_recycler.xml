@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="57dp"
+    android:background="@color/base_color"
+    android:orientation="horizontal"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/item_txt"
+        android:background="@color/white"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:gravity="center|left"
+        android:textStyle="normal"
+        android:layout_weight="1">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:id="@+id/time_txt"
+        android:hint="12:11"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/cardview_dark_background"
+        android:gravity="center"
+
+        >
+
+    </TextView>
+
+   <ImageButton
+       android:layout_width="wrap_content"
+       android:layout_height="56dp"
+       android:id="@+id/on_or_off_image_btn"
+       android:paddingRight="20dp"
+       android:paddingLeft="20dp"
+       android:background="@color/white"
+
+       >
+
+   </ImageButton>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

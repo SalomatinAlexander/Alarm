@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GPSAlarm</string>
+    <string name="id_add_alarm_button">alarm_btn_main</string>
+    <string name="id_recycler_view_main">recycler_view_main</string>
+    <string name="id_txt_main">txt_main</string>
+    <string name="txt_toolbar_option_add_alarm">Добавить будильник</string>
+    <string name="stop_alarm">Выключить</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Network</string>
+    <string name="location_settings">Location settings</string>
+
+</resources>
